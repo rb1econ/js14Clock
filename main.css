@@ -69,13 +69,17 @@
   	color: #FFFFFF;
   	position: absolute;
   	top: 190px;
-  	left: 40px;
+  	left: 10px;
+}
+
+.right-label {
+  margin-right: 30px;
 }
 
 .bottom-fm{
   	color: #FFFFFF;
   	position: absolute;
   	top: 205px;
-  	left: 40px;
+  	left: 10px;
 }
 
