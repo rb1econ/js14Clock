@@ -1,0 +1,81 @@
+.outer-shell{
+  			background: #333333;
+  			position: fixed;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%,-50%);
+  			height: 300px;
+  			width: 600px;
+  			border-radius: 10px 10px;
+ }
+
+.inner-shell{
+	background: #111111;
+	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+  	height: 250px;
+  	width: 550px;
+  	border-radius: 10px 10px;
+  	text-align: right;
+}
+
+.ampm-labels{
+	color: #FFFFFF;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	margin: 0px;
+	line-height: 115px;
+}
+
+.clock-screen {
+  	background: #910500;
+  	position: absolute;
+  	top: 43%;
+  	left: 55%;
+  	transform: translate(-50%,-50%);
+  	height: 190px;
+  	width: 475px;
+  	border-radius: 10px 10px;
+
+}
+
+.clock-ampm{
+  	background: #FF0500;
+  	height: 10px;
+  	width: 10px;
+  	position: absolute;
+  	top: 166px;
+  	left: 15px;
+
+}
+
+.clock-text{
+  	color: #FF0500;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+  	height: 190px;
+  	width: 475px;
+  	border-radius: 10px 10px;
+  	font-size: 175px;
+  	padding-right: 10px;
+}
+
+.bottom-am{
+  	color: #FFFFFF;
+  	position: absolute;
+  	top: 190px;
+  	left: 40px;
+}
+
+.bottom-fm{
+  	color: #FFFFFF;
+  	position: absolute;
+  	top: 205px;
+  	left: 40px;
+}
+
